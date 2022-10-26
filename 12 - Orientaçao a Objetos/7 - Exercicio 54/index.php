@@ -6,15 +6,15 @@
     public $idade;
 
     function andar($m) {
-        echo "A pessoa andou $m metros <br>";
+      echo "A pessoa andou $m metros <br>";
     }
 
   }
 
-  $matheus = new pessoa;
+  $matheus = new Pessoa;
 
   $matheus->nome = "Matheus";
-  $matheus->idade;
+  $matheus->idade = 29;
 
   echo "O nome dele é $matheus->nome e tem $matheus->idade anos <br>";
 

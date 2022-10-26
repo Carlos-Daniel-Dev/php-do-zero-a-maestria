@@ -1,9 +1,9 @@
 <?php
 
-class Car {
+  class Car {
 
-}
+  }
 
-$Carro1 = new Car;
-$Carro2 = new Car;
-$Carro3 = new Car;
+  $bmw = new Car;
+  $ferrari = new Car;
+  $fiat = new Car;

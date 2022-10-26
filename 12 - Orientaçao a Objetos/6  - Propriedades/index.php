@@ -2,17 +2,19 @@
 
   class Car {
 
-    public $rodas = 4;
+    public $rodas;
     public $aro = 20;
     public $cor = "Vermelha";
 
     function ligar() {
-        echo "Vrummmmm <br>";
+      echo "Vrummmm <br>";
     }
 
   }
 
   $ferrari = new Car;
+
+  $ferrari->rodas = 4;
 
   echo $ferrari->aro . "<br>";
   echo $ferrari->rodas . "<br>";

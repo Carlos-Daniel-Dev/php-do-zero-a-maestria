@@ -6,12 +6,16 @@
     public const BRACOS = 2;
     public const PERNAS = 2;
 
-    function motrarConstante() {
+    function mostrarConstante() {
 
-        echo self::BRACOS . "<br>";
+      echo self::BRACOS . "<br>";
+
     }
+
   }
 
   $matheus = new Humano;
 
   echo $matheus::OLHOS . "<br>";
+
+  $matheus->mostrarConstante();

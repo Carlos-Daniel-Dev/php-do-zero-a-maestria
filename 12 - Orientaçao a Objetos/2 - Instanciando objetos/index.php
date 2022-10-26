@@ -1,7 +1,7 @@
 <?php
 
   class User {
-    
+
   }
 
   $matheus = new User;

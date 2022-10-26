@@ -3,12 +3,13 @@
   class Cachorro {
 
     function latir() {
-        echo "Au au <br>";
+      echo "Au au <br>";
     }
 
     function andar($m) {
-        echo "O cachorro andou $m metross <br>";
+      echo "O cachorro andou $m metros <br>";
     }
+
   }
 
   $viraLata = new Cachorro;
@@ -17,6 +18,5 @@
   $viraLata->latir();
   $pastorAlemao->latir();
 
-  $viraLata->andar(30);
-  $pastorAlemao->andar(10);
-
+  $viraLata->andar(1000);
+  $pastorAlemao->andar(50);

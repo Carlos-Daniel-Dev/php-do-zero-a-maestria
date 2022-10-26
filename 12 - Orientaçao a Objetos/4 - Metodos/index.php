@@ -2,14 +2,16 @@
 
   class Pessoa {
 
-    function Falar() {
-        echo "Olá, eu sou um objeto! <br>";
+    function falar() {
+      echo "Olá, eu sou um objeto! <br>";
     }
+
+    function somar($x, $y) {
+      echo $x + $y . "<br>";
+    }
+
   }
 
-  function somar($x, $y) {
-    echo $x + $y . "<br>";
-  }
   $matheus = new Pessoa;
 
   $matheus->falar();
@@ -21,5 +23,4 @@
 
   $matheus->somar(2, 2);
 
-  
   $joao->somar(10, 12);
