@@ -7,6 +7,12 @@
 
   $conn = new mysqli($host, $user, $pass, $db);
 
-  $id = 6;
+  $nome = "abajur";
 
-  $conn->prepare("DELETE * FROM itens WHERE id = ?");
+  $stmt = $conn->prepare("DELETE FROM itens WHERE nome = ?");
+
+  $stmt->bind_param("s", $nome);
+
+  $stmt->execute();
+
+  $conn->close();   
