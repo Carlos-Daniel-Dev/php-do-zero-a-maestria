@@ -1,6 +1,6 @@
 <?php
   include_once("templates/header.php")
 ?>
-  <h1>Pagina de Contato</h1>
+  <h1>Nao contate o th</h1>
 </body>
 </html>
